@@ -10,6 +10,8 @@ $(document).ready(function(){
     $(".centring").attr("hidden", false);
     $(".select").attr("hidden", true);
     $("#search-icon").attr("hidden",false);
+    $(".articles").html("");
+    $(".interface").css("top","50%");
   });
 
   $('#txt-box').on("keypress",function(event){
