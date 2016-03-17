@@ -1,0 +1,106 @@
+body{
+  background-color: #092B40;
+  height: 300px;
+  position: relative;
+
+  .interface{
+    /*display: table;*/
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    width: 300px;
+  
+
+    p{
+      text-align: center;
+      color: white;
+      font-size: 1.3em;
+      margin: 0 auto;
+    }
+    a:hover{ 
+      -webkit-transform: scale(1.2); 
+      text-decoration: none;
+    }
+    .centring{
+      margin: 0 auto;
+
+    }
+    .ion-ios-search{
+      display: table;
+      margin: 0 auto;
+      font-size: 4em;
+      color: #D96F32;
+    
+    }
+    .search{
+      display: table;
+      position: relative;
+      margin: 10px auto;
+      background-color: transparent;
+      border-color: #D96F32;
+      width: 90%;
+      border-radius: 20px;
+      border-width: thick;
+      
+      input{
+        background-color: transparent;
+        width: 90%;
+        border: transparent;
+        color: white;
+      }
+
+      .form-inline {
+        /*position: relative;*/
+        width: 100%;
+      }
+      .form-check{
+        width: 90%;
+        background-color: transparent;
+        /*border-width: 4px;*/
+        border-color: transparent;
+        color: white;
+        
+      }
+      .form-group{
+        width: 100%;
+      }
+      .ion-close-round{
+        position: relative;
+        color: #D96F32;
+        left: 5px;
+        
+      }
+    }
+
+  }
+  textarea:focus, input:focus{
+    outline: none;
+  }
+
+  /*styling the articles section*/
+  .articles{
+    position: relative;
+    top: 50%;
+
+    .linked{
+      width: 80%;
+      margin: 10px auto;
+      background: #E6E6E7;
+      padding: 15px 20px;
+
+
+      
+      a{
+        color: black;
+        text-decoration: none;
+        h3{
+          margin-top: 10px;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+  /**/
+}
