@@ -50,7 +50,7 @@ $(document).ready(function(){
             link = link + pageid;
             html += '<div class="linked"><a href="'
             html+= link;
-            html+= '"><div><h3>';
+            html+= '" target="_blank"><div><h3>';
             html+= title;
             html+= '</h3><p>';
             html+= extract;
